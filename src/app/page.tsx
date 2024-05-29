@@ -1,3 +1,4 @@
+import BasicDependentQueries from "@/components/basic-dependent-queries";
 import BasicInvalidatingQuery from "@/components/basic-invalidating-query";
 import BasicQueryMutation from "@/components/basic-mutation";
 import BasicQuery from "@/components/basic-query";
@@ -9,7 +10,8 @@ export default function Home() {
 
       {/* <BasicQuery /> */}
       {/* <BasicQueryMutation /> */}
-      <BasicInvalidatingQuery />
+      {/* <BasicInvalidatingQuery /> */}
+      <BasicDependentQueries />
     </main>
   );
 }
