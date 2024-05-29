@@ -1,3 +1,4 @@
+import BasicInvalidatingQuery from "@/components/basic-invalidating-query";
 import BasicQueryMutation from "@/components/basic-mutation";
 import BasicQuery from "@/components/basic-query";
 
@@ -7,7 +8,8 @@ export default function Home() {
       <h1 className="text-3xl">React Query</h1>
 
       {/* <BasicQuery /> */}
-      <BasicQueryMutation />
+      {/* <BasicQueryMutation /> */}
+      <BasicInvalidatingQuery />
     </main>
   );
 }
