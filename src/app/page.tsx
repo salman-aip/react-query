@@ -2,6 +2,7 @@ import BasicDependentQueries from "@/components/basic-dependent-queries";
 import BasicInvalidatingQuery from "@/components/basic-invalidating-query";
 import BasicQueryMutation from "@/components/basic-mutation";
 import BasicQuery from "@/components/basic-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       {/* <BasicQueryMutation /> */}
       {/* <BasicInvalidatingQuery /> */}
       <BasicDependentQueries />
+
+      <ReactQueryDevtools />
     </main>
   );
 }
